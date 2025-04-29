@@ -1,0 +1,192 @@
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background: url('../img/bg.jpg') no-repeat center center/cover;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+  background: transparent;
+  color: #00aaff;
+}
+
+nav {
+  color: #00aaff;
+}
+
+nav a {
+  color: #00aaff;
+  text-decoration: none;
+  margin: 0 10px;
+}
+
+.container {
+  display: flex;
+}
+
+.container h2 {
+  color: white;
+}
+
+.sidebar {
+  width: 250px;
+  padding: 20px;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background: transparent;
+}
+
+.profile img {
+  height: 80px;
+  width: 80px;
+  /* margin-left: 40vw;
+  margin-top: 30px; */
+  border-radius: 50%;
+}
+
+
+.profile h2 {
+  font-size: 18px;
+}
+
+.menu button {
+  width: 100%;
+  padding: 10px;
+  margin: 5px 0;
+  background: rgba(76, 115, 196, 0.8);
+  border: none;
+  color: white;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 8px;
+}
+
+.menu button.active {
+  background-color: #00aaff;
+  font-weight: bold;
+}
+
+.menu button:hover {
+  background-color: #00bfff;
+}
+
+.logout button {
+  width: 100%;
+  padding: 10px;
+  margin: 5px 0;
+  margin-top: 39vh;
+  background: rgba(255, 0, 0, 0.8);
+  border: none;
+  color: white;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 8px;
+}
+
+.profile2 {
+  display: flex;
+  width: 83vw;
+  height: 90vh;
+  flex-direction: column;
+  background: url('../img/aboutbg.png') no-repeat center center/cover;
+  border-radius: 10px;
+  color: white;
+}
+
+.search-bar {
+  height: 4vh;
+  margin: 30px;
+}
+
+label {
+  font-weight: bold;
+  margin-right: 10px;
+}
+
+input[type="text"] {
+  padding: 8px;
+  width: 300px;
+  border-radius: 5px;
+  border: none;
+  outline: none;
+}
+
+h3 {
+  margin-top: 30px;
+}
+
+.org img {
+  border-radius: 10px;
+  height: 26vh;
+}
+
+.organizations {
+  display: flex;
+  margin: 65px 30px;
+}
+
+h4 {
+  margin-left: 65px;
+}
+
+.org2 {
+  margin-left: 30px;
+  margin-top: 55px;
+}
+
+.org2 a {
+  text-decoration: none;
+  border: 1px solid white;
+  background-color: rgb(17, 151, 240);
+  color: white;
+  margin: 10px;
+  margin-left: -1px;
+  padding: 5px;
+  border-radius: 5px;
+}
+
+
+.profile{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+#searchbutton{
+  height: 30px;
+  background-color: #00aaff;
+  border-radius: 5px;
+  border: 1px solid white;
+  color: white;
+}
+
+.results{
+height: 100%;
+display: flex;
+}
+
+.search-bar form select {
+  background-color: #00aaff;
+  color: white;
+  height: 35px;
+  width: 170px;
+  margin: 35px;
+  margin-bottom: 15px;
+  padding: 5px;
+  border-radius: 10px;
+  border: 2px solid white;
+  text-align: center;
+}

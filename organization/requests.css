@@ -1,0 +1,163 @@
+body {
+    font-family: Arial, sans-serif;
+    background: url('../img/bg.jpg') no-repeat center center/cover;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background: transparent;
+    color: #00aaff;
+}
+
+nav, nav a {
+    color: #00aaff;
+    text-decoration: none;
+    margin: 0 10px;
+}
+
+.container {
+    display: flex;
+}
+
+.container h2 {
+    color: white;
+}
+
+.sidebar {
+    width: 250px;
+    padding: 20px;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: transparent;
+}
+
+.profile {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.profile img {
+    width: 84px;
+    height: 80px;
+    border-radius: 50%;
+    margin-bottom: 10px;
+}
+
+.profile h2 {
+    font-size: 18px;
+    margin-top: -5px;
+    margin-left: -11px;
+}
+
+.menu button,
+.logout button {
+    width: 100%;
+    padding: 10px;
+    margin: 5px 0;
+    border: none;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 8px;
+}
+
+.menu button {
+    background: rgba(76, 115, 196, 0.8);
+}
+
+.menu button.active {
+    background-color: #00aaff;
+    font-weight: bold;
+}
+
+.menu button:hover {
+    background-color: #00bfff;
+}
+
+.logout button {
+    background: rgba(255, 0, 0, 0.8);
+    margin-top: 49vh;
+}
+
+.profile2 {
+    width: 83vw;
+    height: 90vh;
+    color: white;
+    background: url('../img/aboutbg.png') no-repeat center center/cover;
+    border-radius: 10px;
+}
+
+.profile2 h2 {
+    margin-left: 38vw;
+    margin-bottom: 2px;
+}
+
+.box {
+    margin-left: 35px;
+    width: 39vw;
+    border-radius: 10px;
+    color: #00aaff;
+}
+
+.box1 {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    background-color: #f9f9f9;
+    padding: 12px 15px;
+    margin: 10px 0 0 10px;
+    border-radius: 12px;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.05);
+    transition: background-color 0.3s ease;
+}
+
+.box1:hover {
+    background-color: #f0f0f0;
+}
+
+.box1 img {
+    width: 50px;
+    height: 50px;
+    object-fit: cover;
+    border-radius: 50%;
+    border: 2px solid #ddd;
+}
+
+.box1 a {
+    font-size: 16px;
+    font-weight: 600;
+    color: #333;
+    text-decoration: none;
+}
+
+.box1 a:hover {
+    color: #007bff;
+}
+
+.box2 {
+    display: flex;
+}
+
+.box2 p {
+    margin-left: 15px;    
+    margin-top: 5px;
+}
+
+.box2 a {
+    text-decoration: none;
+    color: #00aaff;
+    width: 100px;
+    border: 2px solid #00aaff;
+    border-radius: 20px;
+    padding: 6px 16px 4px 20px;
+    margin: 30px;
+}

@@ -1,0 +1,107 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background: url('../img/bg.jpg') no-repeat center center/cover;
+    color: white;
+}
+
+.container {
+    text-align: center;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background: transparent;
+    color: #00aaff;
+    margin-bottom: 10vh;
+}
+
+nav {
+    color: #00aaff;
+}
+
+nav a {
+    color: #00aaff;
+    text-decoration: none;
+    margin: 0 10px;
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+    color: #00aaff;
+}
+
+.form-container {
+    padding: 40px;
+    background: url('../img/aboutbg.png') no-repeat center center/cover;
+    width: 25vw;
+    margin: auto;
+    border-radius: 10px;
+}
+
+h2 {
+    text-align: center;
+    color: white;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    text-align: left;
+    margin-top: 10px;
+}
+
+input {
+    width: 25vw;
+    padding: 8px;
+    margin: 5px 0;
+    border: none;
+    border-radius: 5px;
+}
+
+button {
+    margin-top: 15px;
+    padding: 10px;
+    background: rgb(0, 162, 255);
+    border: none;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.org-register {
+    display: block;
+    margin-top: 15px;
+    color: #00aaff;
+    ;
+    text-decoration: none;
+}
+
+p {
+    color: rgb(255, 255, 255);
+}
+
+a {
+    color: #00aaff;
+    margin-bottom: 10vh;
+}
+
+button:hover {
+    background-color: #5dccff;
+}
+
+
+.profile{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }

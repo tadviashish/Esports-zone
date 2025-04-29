@@ -1,0 +1,1 @@
+SELECT atheleteid, username, password, name, birthday, discord, mobile, email, address, instagram, youtube, bio, profile FROM athelete_data WHERE 1
