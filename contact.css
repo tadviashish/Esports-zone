@@ -3,7 +3,7 @@ body {
     margin: 0;
     padding: 0;
     font-family: Arial, sans-serif;
-    background: url('/img/bg.jpg') no-repeat center center/cover;
+    background: url('./img/bg.jpg') no-repeat center center/cover;
     color: white;
     text-align: center;
 }
@@ -39,7 +39,7 @@ nav a {
     background: rgba(255, 255, 255, 0.1);
     padding: 30px;
     border-radius: 15px;
-    background: url('/img/aboutbg.png') no-repeat center center/cover;
+    background: url('./img/aboutbg.png') no-repeat center center/cover;
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
     max-width: 400px;
     width: 100%;
@@ -78,7 +78,7 @@ textarea::placeholder {
     color: #ddd;
 }
 
-button {
+#button {
     background: #007bff;
     color: white;
     padding: 10px 20px;

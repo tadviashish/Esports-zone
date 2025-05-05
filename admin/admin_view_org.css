@@ -101,7 +101,8 @@ nav a {
     width: 83vw;
     height: 150vh;
     flex-direction: column;
-    background-color: antiquewhite;
+    /* background-color: antiquewhite; */
+    background-image: url(../img/aboutbg.png);
     border-radius: 10px;
     color: rgb(0, 0, 0);
 }
